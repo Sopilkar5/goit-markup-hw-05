@@ -315,7 +315,7 @@
             <div class="form-low-wraper">
                 <p class="subscribe">Subscribe </p>
                 <form class="low-form">
-                    <label class="low-email-form" for="low_email"><input type="email" id="low_email" name="low_email"
+                    <label class="low-email-form" for="low-email"><input type="email" id="low-email" name="low-email"
                             class="low-object" placeholder="E-mail"></label>
                     <button type="submit" class="low-btn">Subscribe<svg width="24" height="24" class="low-icon-btn">
                             <use href="./images/icons.svg#icon-icon-send"></use>
@@ -324,14 +324,14 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop ">
+    <div class="backdrop is-open">
         <div class="modal">
             <button type="button" class="modal-close"><svg width="8" height="8" class="modal-icon-cross">
                     <use href="./images/icons.svg#icon-close-black-18dp-1"></use>
                 </svg></button>
             <p class="modal-title">Leave your contacts and we will call you back</p>
             <form class="modal-form">
-                <div class="modal-field">
+                <div class="modal-field-container">
                     <label class="above-object" for="user-name">Name</label>
                     <div class="icon-wraper">
                         <input type="text" name="user-name" id="user-name" class="modal-object">
@@ -340,7 +340,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="modal-field">
+                <div class="modal-field-container">
                     <label class="above-object" for="user-phone">Phone</label>
                     <div class="icon-wraper">
                         <input type="tel" name="user-phone" id="user-phone" class="modal-object">
@@ -349,23 +349,23 @@
                         </svg>
                     </div>
                 </div>
-                <div class="modal-field">
+                <div class="modal-field-container">
                     <label class="above-object" for="user-email">Email</label>
                     <div class="icon-wraper">
                         <input type="email" name="user-email" id="user-email" class="modal-object">
-                        <svg width="16" height="12" class="modal-icon">
+                        <svg width="18" height="24" class="modal-icon">
                             <use href="./images/icons.svg#icon-Vector"></use>
                         </svg>
                     </div>
                 </div>
                 <div class="modal-field">
-                    <label for="user-comment" class="above-object">Comment
-                        <textarea name="user-comment" id="user-comment" class="modal-comment"
-                            placeholder="Text input"></textarea>
-                    </label>
+                    <label for="user-comment" class="above-object">Comment</label>
+                    <textarea name="user-comment" id="user-comment" class="modal-comment"
+                        placeholder="Text input"></textarea>
+
                 </div>
                 <div class="modal-field-box">
-                    <input type="checkbox" name="user-privacy" id="user-privacy" class="modal-check, visually-hidden"
+                    <input class="modal-check, visually-hidden" type="checkbox" name="user-privacy" id="user-privacy"
                         value="true">
                     <label for="user-privacy" class="modal-check-text">
                         <span class="modal-icon-check">
