@@ -652,7 +652,7 @@ text-decoration-skip-ink: none;
 color: #4d5ae5;
 padding-left: 3px;
 }
-.modal-check-text span{
+.modal-icon-check{
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -663,7 +663,7 @@ justify-content: center;
 align-items: center;
 fill: transparent;
 }
-.modal-check:checked + .modal-check-text span{
+.modal-check:checked + .modal-icon-check{
     background-color: #404bbf;
 border: 1px solid #404bbf;
 fill: #f4f4fd;
